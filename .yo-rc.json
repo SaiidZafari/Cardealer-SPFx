@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.0",
+    "libraryName": "cardealer-spfx",
+    "libraryId": "b617091c-775a-4437-b548-28775e05ddb1",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "cardealer-spfx",
+    "solutionShortDescription": "cardealer-spfx description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

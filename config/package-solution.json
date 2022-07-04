@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "cardealer-spfx-client-side-solution",
+    "id": "b617091c-775a-4437-b548-28775e05ddb1",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "cardealer-spfx description"
+      },
+      "longDescription": {
+        "default": "cardealer-spfx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "cardealer-spfx Feature",
+        "description": "The feature that activates elements of the cardealer-spfx solution.",
+        "id": "d7261463-dfed-4220-980d-eec210a6a93a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/cardealer-spfx.sppkg"
+  }
+}

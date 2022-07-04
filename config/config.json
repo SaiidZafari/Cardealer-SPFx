@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cardealer-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cardealer/CardealerWebPart.js",
+          "manifest": "./src/webparts/cardealer/CardealerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CardealerWebPartStrings": "lib/webparts/cardealer/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
